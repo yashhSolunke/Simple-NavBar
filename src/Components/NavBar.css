@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(40, 120, 224);
+    color: white;
+}
+
+
+ul{
+    background-color: rgb(195, 255, 0);
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    cursor: pointer;
+}
+.active{
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
